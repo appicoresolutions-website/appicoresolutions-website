@@ -4662,3 +4662,53 @@ body.dark-mode .tool-card p {
     grid-template-columns: 1fr;
   }
 }
+
+/* Leave a Review section */
+
+.review-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.review-box {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  background:
+    radial-gradient(circle at top right, rgba(0, 182, 167, 0.12), transparent 34%),
+    radial-gradient(circle at bottom left, rgba(52, 155, 247, 0.10), transparent 34%),
+    white;
+  border: 1px solid var(--appi-border);
+  border-radius: 30px;
+  padding: 50px 30px;
+  box-shadow: 0 18px 45px rgba(22, 32, 51, 0.08);
+}
+
+.review-box h2 {
+  color: var(--appi-navy);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 10px 0 16px;
+}
+
+.review-box p {
+  color: var(--appi-muted);
+  max-width: 650px;
+  margin: 0 auto 24px;
+  line-height: 1.7;
+}
+
+body.dark-mode .review-box {
+  background:
+    radial-gradient(circle at top right, rgba(0, 182, 167, 0.12), transparent 34%),
+    radial-gradient(circle at bottom left, rgba(52, 155, 247, 0.10), transparent 34%),
+    rgba(18, 31, 56, 0.88);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+body.dark-mode .review-box h2 {
+  color: white;
+}
+
+body.dark-mode .review-box p {
+  color: rgba(255, 255, 255, 0.78);
+}
