@@ -650,18 +650,6 @@ section[id] {
   height: 100%;
 }
 
-.tool-card span {
-  width: 52px;
-  height: 52px;
-  border-radius: 16px;
-  background: #eef4ff;
-  color: var(--appi-blue);
-  display: grid;
-  place-items: center;
-  font-size: 1.5rem;
-  margin-bottom: 18px;
-}
-
 .tool-card h3 {
   margin-bottom: 10px;
   font-size: 1.2rem;
